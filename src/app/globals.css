@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e7e7e7;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #222053;
+  height: 70px;
+  align-items: center;
+}
+
+nav .iconDensity {
+  display: none;
+  margin-right: 10%;
+}
+
+nav .logo,
+footer div a .logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  height: auto;
+  width: 100px;
+  margin-left: 10%;
+}
+
+nav .logo:hover,
+footer div a .logo {
+  cursor: context-menu;
+}
+
+nav ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  color: #e7e7e7;
+}
+
+nav ul li:hover {
+  color: #bbf7d0;
+  transition: 0.3s;
+}
+
+#HomeStart {
+  /* background-image: url("../../public/img/bg-hero.jpg"); */
+  background-position: bottom;
+  background-size: cover;
+  background-color: #f6f6f6;
+}
+
+/* Responsive Breakpoint */
+/* Screen Laptop */
+@media screen and (max-width: 1024px) {
+  nav .iconDensity {
+    cursor: pointer;
+    display: flex;
+  }
+
+  nav .iconDensity {
+    color: #bbf7d0;
+  }
+
+  nav ul {
+    position: absolute;
+    flex-direction: column;
+    background-color: #222053;
+    top: 0;
+    width: 50%;
+    margin-top: 69px;
+    height: 30vh;
+    justify-content: space-around;
+    transition: all 1s;
+  }
+
+  nav ul.visible {
+    transform: translateX(-100%);
+  }
+}
+
+/* Screen Tablet */
+@media screen and (max-width: 768px) {
+  nav .iconDensity {
+    cursor: pointer;
+    display: flex;
+  }
+
+  nav .iconDensity {
+    color: #bbf7d0;
+  }
+
+  nav ul {
+    position: absolute;
+    flex-direction: column;
+    background-color: #000;
+    top: 0;
+    width: 50%;
+    margin-top: 69px;
+    height: 30vh;
+    justify-content: space-around;
+    transition: all 1s;
+  }
+
+  nav ul.visible {
+    transform: translateX(-100%);
+  }
+}
+
+/* Screen Mobile */
+@media screen and (max-width: 576px) {
+  nav .iconDensity {
+    cursor: pointer;
+    display: flex;
+  }
+
+  nav .iconDensity {
+    color: #bbf7d0;
+  }
+
+  nav ul {
+    position: absolute;
+    flex-direction: column;
+    background-color: #000;
+    top: 0;
+    width: 50%;
+    margin-top: 69px;
+    height: 30vh;
+    justify-content: space-around;
+    transition: all 1s;
+  }
+
+  nav ul.visible {
+    transform: translateX(-100%);
+  }
+}
