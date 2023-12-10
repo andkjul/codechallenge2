@@ -19,7 +19,10 @@ export default function HomeOverview() {
                 </p>
                 <p className="leading-relaxed text-justify">
                 Services typically offered by Barber Shops
-                Barbershops provide quick, simple and inexpensive haircut services and are generally geared toward men and children, although some women who get shorter or simpler haircuts go to a barber shop. Businesses that provide more advanced hair cutting and styling services are referred to as hair salons. Hair salons often encompass professional hair styling services with barber shop style haircutting. Most barbershops welcome walk-in customers and don't require appointments.
+                Established in 1982, The Barber Shop Group has a passionate commitment to men’s grooming and offers no-nonsense high quality, value-for-money haircuts, styling and shaving for men.
+                Established in 1982, The Barber Shop Group has a passionate commitment to men’s grooming and offers no-nonsense high quality, value-for-money haircuts, styling and shaving for men.
+                Established in 1982, The Barber Shop Group has a passionate commitment to men’s grooming and offers no-nonsense high quality, value-for-money haircuts, styling and shaving for men.
+
                 </p>
               </div>
             </div>

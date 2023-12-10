@@ -23,7 +23,7 @@ export default function HomeService() {
             <div class="h-1 w-[50%] bg-gray-600 rounded"></div>
           </div>
           <p class="lg:w-1/2 w-full leading-relaxed text-gray-700">
-            Step into our barbershop, where tradition meets modern style, and experience grooming at its finest. We understand that a haircut is more than just a routine; it's a form of personal expression and a chance to relax and be pampered. That's why we're dedicated to providing a range of top-notch services tailored to meet the unique needs and preferences of each client.
+            Step into our barbershop, where tradition meets modern style, and experience grooming at its finest. Services typically offered by Barber ShopsServices typically offered by Barber ShopsServices typically offered by Barber Shops
           </p>
         </div>
         {/* <div class="flex flex-wrap -m-4">

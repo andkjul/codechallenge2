@@ -48,10 +48,10 @@ export default function Footer() {
                         <h2 class="title-font font-medium text-green-200 tracking-widest text-sm mb-3">SERVICE</h2>
                         <div class="list-none mb-10">
                             <li class="pb-1">
-                                <a class="text-gray-400 hover:text-gray-500" href="#">Kids Haircut</a>
+                                <a class="text-gray-400 hover:text-gray-500" href="#">Haircut</a>
                             </li>
                             <li class="pb-1">
-                                <a class="text-gray-400 hover:text-gray-500" href="#">Men's Facial</a>
+                            <a class="text-gray-400 hover:text-gray-500" href="#">Men Facial</a>
                             </li>
                             <li class="pb-1">
                                 <a class="text-gray-400 hover:text-gray-500" href="#">British Haircut</a>
